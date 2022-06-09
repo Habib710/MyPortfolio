@@ -1,0 +1,60 @@
+.banner-css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    
+    min-height: 90vh;
+  
+
+
+   
+    background-image:linear-gradient(rgba(5, 5, 5, 0.877), rgba(7, 7, 7, 0.897)), url('../img/pngtree-hd-abstract-tech-background-picture-image_578452.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header-css{
+    padding: 15px;
+    background-color: rgba(25, 44, 51, 0.87);
+}
+.nav-link a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.name-css{
+    font-size: 70px;
+}
+.ICON-CSS{
+    font-weight: 700;
+    font-size: 35px;
+}
+.my-btn-css{
+             
+   
+        background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6  51%, #2BC0E4  100%);
+        margin: 10px;
+        padding: 10px 45px;
+        text-align: center;
+        border: none;
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: rgb(2, 2, 2);            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+      }
+
+      .my-btn-css:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: rgb(54, 54, 54);
+        text-decoration: none;
+      }
+     
