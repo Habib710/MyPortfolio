@@ -14,9 +14,9 @@ const Header = () => {
     
     <Nav className='m-auto nav-link'>
     <Link to={'sdf'}>Home</Link>
-    <Link to={'sdf'}>Home</Link>
-    <Link to={'sdf'}>Home</Link>
-    <Link to={'sdf'}>Home</Link>
+    <Link to={'sdf'}>About</Link>
+    <Link to={'sdf'}>Blog</Link>
+    <Link to={'sdf'}>Contract</Link>
     </Nav>
     <Nav>
       <button className='my-btn-css'>Resume</button>

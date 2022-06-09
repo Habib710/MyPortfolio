@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 .banner-css{
     display: flex;
     justify-content: center;
@@ -15,6 +19,24 @@
     background-size: cover;
     position: relative;
 }
+.myproject{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+
+    min-height: 90vh;
+  
+
+
+   
+    background-image:linear-gradient(rgba(5, 5, 5, 0.63), rgba(7, 7, 7, 0.541)), url('../img/istockphoto-1224339524-612x612.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
 .header-css{
     padding: 15px;
     background-color: rgba(25, 44, 51, 0.87);
@@ -22,9 +44,19 @@
 .nav-link a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    margin-left: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
+
+}
+.nav-link a:hover{
+   
+    color: rgb(252, 252, 252);
+    box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        padding: 5px 10px ;
+        transition: .4s ease-in-out;
 
 }
 .name-css{
@@ -57,4 +89,76 @@
         color: rgb(54, 54, 54);
         text-decoration: none;
       }
+
+               
+      .hIRE-CSS-BTN{
+        background-image: linear-gradient(to right, #afececd8 0%, #a6ccf3  51%, #bdc3c7  100%);
+        margin: 10px;
+        padding: 10px 35px;
+        border: none;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: rgb(10, 10, 10);            
+        box-shadow: 0 0 10px rgba(8, 8, 8, 0.514);
+        border-radius: 10px;
+        
+      }
+
+      .hIRE-CSS-BTN:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+      .myskill{
+          padding: 10px;
+          display: grid;
+          gap: 15px;
+          grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
+      }
+      .custom-progress{
+        margin-top: 10PX;
+        background-color: #575757;
+      }
+      .card-css{
+          height: 300px;
+          width: 100%;
+      }
+               
+             
+      .btn-grad {
+        background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%);
+        margin: 10px;
+        padding: 10px 25px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        border: none;
+        display: block;
+      }
+
+      .btn-grad:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+     
+
+
+      @media screen and (max-width:450px) {
+        .myproject{
+            display: block;
+            padding: 10px;
+        }
+
+
+
+
+      }
+     
      
