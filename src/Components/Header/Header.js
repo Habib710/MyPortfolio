@@ -4,6 +4,8 @@ import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
+
+  
     return (
         <div>
             <Navbar className='header-css' collapseOnSelect expand="lg" variant="dark">
@@ -13,13 +15,13 @@ const Header = () => {
   <Navbar.Collapse id="responsive-navbar-nav">
     
     <Nav className='m-auto nav-link'>
-    <Link to={'sdf'}>Home</Link>
-    <Link to={'sdf'}>About</Link>
-    <Link to={'sdf'}>Blog</Link>
-    <Link to={'sdf'}>Contract</Link>
+    <Link to='/home'>Home</Link>
+    <Link to='about'>About</Link>
+    <Link to='sdf'>Blog</Link>
+    <Link to='contract'>Contract</Link>
     </Nav>
     <Nav>
-      <button className='my-btn-css'>Resume</button>
+    <a href='https://drive.google.com/file/d/1GnEmtjXmEV9CNOZOO5uiCGrbRIebRXgy/view?usp=sharing' target='_blank' download><button  className='my-btn-css'>Resume</button></a>
 
     </Nav>
   </Navbar.Collapse>

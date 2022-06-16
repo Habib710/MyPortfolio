@@ -3,21 +3,27 @@ body{
 }
 
 .banner-css{
-    display: flex;
-    justify-content: center;
+
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat( auto-fit, minmax(220px, 1fr) );
+    
     align-items: center;
     overflow-x: hidden;
     
-    min-height: 90vh;
-  
-
-
-   
+    min-height: 50vh;
     background-image:linear-gradient(rgba(5, 5, 5, 0.877), rgba(7, 7, 7, 0.897)), url('../img/pngtree-hd-abstract-tech-background-picture-image_578452.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+.img-div{
+  width: 650px;
+}
+.img-div img{
+  
+  margin-bottom: 150px;
 }
 .myproject{
     display: flex;
@@ -34,7 +40,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+    position: sticky;
 
 }
 .header-css{
@@ -83,6 +89,9 @@ body{
         border-radius: 10px;
         display: block;
       }
+       a{
+        text-decoration: none;
+      }
 
       .my-btn-css:hover {
         background-position: right center; /* change the direction of the change here */
@@ -114,8 +123,8 @@ body{
       .myskill{
           padding: 10px;
           display: grid;
-          gap: 15px;
-          grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
+          gap: 10px;
+          grid-template-columns: repeat( auto-fit, minmax(120px, 1fr) );
       }
       .custom-progress{
         margin-top: 10PX;
@@ -144,13 +153,38 @@ body{
 
       .btn-grad:hover {
         background-position: right center; /* change the direction of the change here */
-        color: #fff;
+        color: rgb(245, 241, 241);
         text-decoration: none;
+      }
+
+      .contract-form-css {
+          width: 90%;
+         margin-top: 20px;
+         padding: 10px;
+         background: #ffffff;
+         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+         border: .1px solid rgba(70, 69, 69, 0.575);
+         border-radius: 10px;
+         
+
+      }
+      .footer{
+        min-height: 250px;
+       background-color: #303f49;
       }
      
 
 
       @media screen and (max-width:450px) {
+        
+        .banner-css{
+          
+        padding:1px;
+        display: block;
+        }
+        .img-div{
+          display: none;
+        }
         .myproject{
             display: block;
             padding: 10px;
